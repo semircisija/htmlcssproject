@@ -125,6 +125,7 @@ footer{
   clear:both;
   padding-top:50px;
   color:#ccc;
+  background-color:#777;
 
 }
 
@@ -156,6 +157,10 @@ list-style:none;
   background-color:#f5f5f5;
   color:#bdc3c7;
 }
+#gallery li img:hover{
+  border-radius:50%; 
+
+}
 
 #gallery li a  p {
 
@@ -164,6 +169,9 @@ list-style:none;
   font-size:0.75em;
   color:#bdc3c7;
 
+}
+#gallery li a  p:hover{
+ color:#000;  
 }
 
 
